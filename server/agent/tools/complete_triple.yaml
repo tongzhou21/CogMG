@@ -1,0 +1,10 @@
+name: CompleteTriple
+description: Use this tool complete knowledge triples.
+parameters:
+  type: object
+  properties:
+    query:
+      type: string
+      description: Knowledge triples with blank elements.
+required:
+  - query

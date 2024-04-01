@@ -1,0 +1,10 @@
+name: StepInKG
+description: Use this tool to query knowledge and facts about the question. It parse steps and execute on KG, return accurate answer.
+parameters:
+  type: object
+  properties:
+    query:
+      type: string
+      description: Steps for querying knowledge graph.
+required:
+  - query
